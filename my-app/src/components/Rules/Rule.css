@@ -1,0 +1,5 @@
+#ruleContainer{
+    border: 1px solid black;
+    flex: 0.8;
+    height: 95vh;
+}
