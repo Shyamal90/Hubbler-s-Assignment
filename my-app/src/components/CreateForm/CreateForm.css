@@ -1,0 +1,77 @@
+#create_form_container{
+    padding: 1em 4em;
+}
+
+
+.buttonName{
+    margin: 2em 0em;
+}
+
+#buttonName{
+    padding: 0.6em 1em;
+    width: 40%;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.applyConditionContainer{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 0 0 2em 0;
+}
+
+#selectAll{
+    border: 1px solid gray;
+    padding: 0.3em 0.6em;
+}
+
+.conditionForm{
+    display: flex;
+    gap: 10px;
+    margin: 0.8em 0;
+}
+
+
+.ruleBox{
+    border: 1px solid rgb(212, 212, 212);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0.4em 1em;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+
+#inputField{
+    padding: 0.6em 1em;
+    border: none;
+    outline: none;
+}
+
+#inputField::placeholder{
+    color:aqua
+}
+
+
+.inputForm{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(189, 189, 189);
+    flex: 0.6;
+}
+
+.addRuleBtn{
+    font-size: 0.7rem;
+    /* width: 20%; */
+    border: none;
+    outline: none;
+    color:aqua;
+    background-color: transparent;
+}
+
+.deleteButton:hover{
+   color: #cd853f;
+}

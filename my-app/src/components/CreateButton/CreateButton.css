@@ -1,0 +1,19 @@
+
+
+.generalButton{
+    padding: 0.5em 1em;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+
+.generalButton:hover{
+    background-color: rgb(224, 223, 223);
+    cursor: pointer;
+}
+
+.generalButton:active{
+    color:white
+}

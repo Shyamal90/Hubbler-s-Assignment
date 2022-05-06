@@ -1,10 +1,13 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 
 section{
     display: flex;
     justify-content: space-between;
+    
 }
+
