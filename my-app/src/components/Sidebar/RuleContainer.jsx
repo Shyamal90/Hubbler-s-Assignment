@@ -1,19 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Sidebar.css'
 import {useDispatch,useSelector} from 'react-redux'
 import {deleteRule} from '../../redux/action'
 
 function RuleContainer({ruleName,id}) {
+    console.log("rulename ", ruleName)
     const dispatch = useDispatch();
     
     const handleDelete = () =>{
-      dispatch(deleteRule(id))
+      if(id !== 1)
+        dispatch(deleteRule(id))
     }
+
+    const [newRuleName,setNewRuleName] = useState(ruleName);
   return (
     <div id="ruleContainer">
       <div className="ruleName">
           <img src="dots-menu.png" alt="" width="10vw"/>
-          <p>{ruleName}</p>
+          <p>{newRuleName}</p>
       </div>
       <img src="profiles.png" alt="" width="16vw"/>
       <button style={{

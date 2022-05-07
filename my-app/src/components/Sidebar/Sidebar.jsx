@@ -20,7 +20,7 @@ function Sidebar() {
 
       {/* create new rule */}
       <div className="create_rule_container">
-        <p id='totalRules'>RULES 2</p>
+        <p id='totalRules'>RULES {rulesArray.length}</p>
         <div className="rules_container">
           <div className="rule_container">
             {

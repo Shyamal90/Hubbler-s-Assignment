@@ -27,6 +27,20 @@ export const ruleReducer = (state = initialState, action) => {
                    rules:[...newUpdatedData]
                 }
 
+
+         case "EDIT_RULE" :
+                 const newData = state.rules.map((rule)=>{
+                     if(rule.id === action.payload.id){
+                         return {...rule,buttonName:action.payload.buttonName}
+                     }
+
+                     return rule;
+                 }) 
+                 return {
+                     ...state,
+                     rules:[...newData]
+                 }
+
          default : return state;
      }
 }

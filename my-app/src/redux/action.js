@@ -51,3 +51,10 @@ export const deleteRule = (id) => {
         payload: id
     }
 }
+
+export const editRule = (value) => {
+    return {
+        type:"EDIT_RULE",
+        payload : value
+    }
+}
