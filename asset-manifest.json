@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Hubbler-s-Assignment/static/css/main.36e008cb.css",
+    "main.js": "/Hubbler-s-Assignment/static/js/main.fa7845b4.js",
+    "index.html": "/Hubbler-s-Assignment/index.html",
+    "main.36e008cb.css.map": "/Hubbler-s-Assignment/static/css/main.36e008cb.css.map",
+    "main.fa7845b4.js.map": "/Hubbler-s-Assignment/static/js/main.fa7845b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36e008cb.css",
+    "static/js/main.fa7845b4.js"
+  ]
+}
